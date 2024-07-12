@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+div {
+	margin-top: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+
+}
+
+table {
+	width: 700px;
+	border: 2px solid black;;
+	margin-bottom: 40px;
+}
+
+
+td {
+	padding: 10px;
+	font-size: 18px;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+th {
+	padding: 12px;
+	background-color: green;
+	border: 2px solid black;
+	color:black;
+}
+
+h2 {
+	color: black;
+	padding: 20px;
+
+}
+
+
+.btns {
+
+	border: 1px green solid;
+	padding: 8px;
+	background-color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+.btns:hover {
+	background-color: white;
+	color:black;
+	transition: 1.3s;
+}
+
+.back {
+		width: max-content;
+	color: white;
+	text-decoration: none;
+	border: 1px black solid;
+	padding: 10px;
+	background-color: darkslategray;
+	
+	position: fixed;
+	
+}
